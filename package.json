@@ -1,0 +1,24 @@
+{
+  "name": "projeto-ucb-frontend",
+  "version": "1.0.0",
+  "description": "Uma aplicação web para Marketplace de Serviços diversos (Freela)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flaio-rian-mmarques/Projeto-UCB-Frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flaio-rian-mmarques/Projeto-UCB-Frontend/issues"
+  },
+  "homepage": "https://github.com/flaio-rian-mmarques/Projeto-UCB-Frontend#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.8.0",
+    "drizzle-orm": "^0.45.2"
+  }
+}
