@@ -2,5 +2,5 @@ import { drizzle } from 'drizzle-orm/better-sqlite3';
 import Database from 'better-sqlite3';
 import * as schema from './schema-noticias.js';
 
-const sqlite = new Database('database.db');
+const sqlite = new Database('banco.db');
 export const db = drizzle(sqlite, { schema });

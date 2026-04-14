@@ -54,7 +54,7 @@ async function main() {
                         cidadeId: Number(cidId.trim())
                     }).returning({ id: noticias.id });
 
-                    const idNoticia = novaNoticia[0].id;
+                    const idNoticia = novaNoticia[0]!.id;
                     
                     const listaTags = await db.select().from(tags);
                     if (listaTags.length > 0) {
