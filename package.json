@@ -1,6 +1,7 @@
 {
   "name": "projeto-ucb-frontend",
   "version": "1.0.0",
+  "type": "module",
   "description": "Uma aplicação web para Marketplace de Serviços diversos (Freela)",
   "main": "index.js",
   "scripts": {
